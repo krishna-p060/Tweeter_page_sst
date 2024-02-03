@@ -25,7 +25,7 @@ function generateTicket(post) {
                         <div class="name">
                             <p>Krishna_Patidar  @krp5556</p>
                             <div>
-                                <span class="edit-btn"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661" alt="edit"></span>
+                                <span class="edit-btn"><img class="edit-btn-1" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661" alt="edit"></span>
                                 <span><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="delete-reg"></span>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function generateTicket(post) {
     main_cont.appendChild(ticketCont);
 
     let contentArea= ticketCont.querySelector(".text-area");
-    let edit = main_cont.querySelector(".edit-btn img");
+    let edit = main_cont.querySelector(".edit-btn-1");
     let flag=0;
     edit.addEventListener("click", function(){
         console.log("edit");
